@@ -3,6 +3,8 @@
 </script>
 
 <template>
-  <CalculateANC />
+  <div class="bg-pink-50">
+    <CalculateANC />
+  </div>
 </template>
 
