@@ -51,8 +51,11 @@ body {
 }
 
 .vc-popover-content {
-  min-width: 100% !important;
-  height: auto !important;
+  font-family: "Sarabun-Bold", sans-serif !important;
+  font-weight: 500 !important;
+  width: 100% !important;
+  padding: 15px !important;
+  border-radius: 1rem !important;
 }
 
 .vc-bordered {
@@ -60,4 +63,12 @@ body {
   border-width: 2px !important;
   border-style: dashed !important;
   border-color: #e5e7eb !important;
+}
+
+.vc-nav-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 10px !important;
+  grid-column-gap: 45px !important;
+  margin-top: 2px;
 }
